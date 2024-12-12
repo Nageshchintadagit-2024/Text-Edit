@@ -20,7 +20,7 @@ import {
 } from './styledComponents'
 
 class TextEditor extends Component {
-  state = {activeIcon: '', isBold: false, isItalic: false, isUnderline: false}
+  state = {isBold: false, isItalic: false, isUnderline: false}
 
   onClickBold = () => {
     this.setState(prevState => ({isBold: !prevState.isBold}))
